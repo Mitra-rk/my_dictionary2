@@ -6,7 +6,7 @@ export default function Phonetics(props) {
     return (
       <div className="Phonetics">
         <strong>Phonetics</strong>
-        <h3>{props.data.phonetic}</h3>
+        <h3>{props.data.text}</h3>
         <a href={props.data.audio}>listen</a>
       </div>
     );
