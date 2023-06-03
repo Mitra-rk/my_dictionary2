@@ -4,25 +4,29 @@ import Phonetics from "./Phonetics";
 
 export default function Result(props) {
   if (props.data) {
-    console.log(props.data);
+    
     return (
       <div className="Result">
         <h3>{props.data.word}</h3>
-       
+
         {props.data.meanings.map(function (meaning, index) {
-           
-          return (
-            <div key={index}>
-              <Meanings data={meaning} />
-            </div>
-          );
+          console.log(meaning);
+          if (index < 2) {
+            return (
+              <div key={index}>
+                <Meanings data={meaning} />
+              </div>
+            );
+          }
         })}
         {props.data.phonetics.map(function (phonetic, index) {
-          return (
-            <div key={index}>
-              <Phonetics data={phonetic} />
-            </div>
-          );
+          if (index < 2) {
+            return (
+              <div key={index}>
+                <Phonetics data={phonetic} />
+              </div>
+            );
+          }
         })}
       </div>
     );
