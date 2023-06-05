@@ -1,4 +1,5 @@
 import React from "react";
+import "./Meanings.css"
 
 export default function Meanings(props) {
   console.log(props.data);
@@ -8,16 +9,13 @@ export default function Meanings(props) {
         if (index < 2) {
           return (
             <div key={index}>
-              <strong>part of spee:ch</strong>
-              <h3>{props.data.partOfSpeech}</h3>
-              <br />
-              <h2>Definition:</h2>
-              <p>{definition.definition}</p>
+              <h4>{props.data.partOfSpeech}</h4>
+               <p>{definition.definition}</p>
             </div>
           );
         }
       })}
-      <h2>Synonyms:</h2>
+      
       {props.data.synonyms.map(function (synonym, index) {
         if (index < 2) {
           return (

@@ -1,0 +1,19 @@
+.Meanings p{
+    line-height: 1.5;
+    font-size: 18px;
+    opacity: 0.8;
+}
+.Meanings h4{
+    font-size: 22px;
+
+}
+.Meanings ul{
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+}
+.Meanings li{
+    list-style: none;
+    padding: 10px;
+    color:rgb(34, 147, 34);
+}

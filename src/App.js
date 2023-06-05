@@ -8,7 +8,8 @@ export default function App() {
         
       </header>
       <main>
-      <Dictionary />
+        <h1>What word do you want to look up?</h1>
+      <Dictionary defaultWord="sunset"/>
       </main>
       <footer>
         Coded by Mitra Enayatollahi
