@@ -4,7 +4,7 @@
 .Phonetics h5 {
   opacity: 0.7;
   font-size: 28px;
-  margin-right: 15px;
+  padding: 20px;
   
   display: inline;
   
@@ -12,10 +12,10 @@
 
 .Phonetics a {
   border: 1px solid #ddd;
-  background-color: rgb(74, 222, 74);
-  color: white;
-  padding: 6px 20px;
-  margin-right:20px;
+  background-color:white;
+  color: rgb(74, 222, 74);;
+  padding: 3px 20px;
+  margin:30px 0;
   display: inline;
   font-size: 18px;
   text-decoration: none;
@@ -24,6 +24,6 @@
 }
 
 .Phonetics a:hover {
-  color: rgb(74, 222, 74);
-  background-color: white;
+  color:white;
+  background-color: rgb(74, 222, 74);;
 }

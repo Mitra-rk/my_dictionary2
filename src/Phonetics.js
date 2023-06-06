@@ -5,10 +5,9 @@ export default function Phonetics(props) {
   if (props.data.audio) {
     return (
       <div className="Phonetics">
-        
-        <h5>{props.data.text}</h5>
-        
         <a href={props.data.audio}>listen</a>
+
+        <h5>{props.data.text}</h5>
       </div>
     );
   } else {

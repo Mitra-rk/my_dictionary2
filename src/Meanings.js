@@ -2,7 +2,7 @@ import React from "react";
 import "./Meanings.css";
 
 export default function Meanings(props) {
-  console.log(props.data);
+  
   return (
     <div className="Meanings">
       {props.data.definitions.map(function (definition, index) {
