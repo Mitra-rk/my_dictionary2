@@ -7,6 +7,7 @@ export default function App() {
       <header className="App-header"></header>
       <main>
         <h1>What word do you want to look up?</h1>
+        <small>maybe you need a vpn , if it does'nt work well</small>
         <Dictionary defaultWord="sunset" />
       </main>
       <footer>

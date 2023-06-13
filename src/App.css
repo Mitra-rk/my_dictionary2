@@ -11,5 +11,9 @@
 }
 
 .App footer {
-  margin:0px auto;
+  margin: 0px auto;
+}
+small {
+  color: tomato;
+  background-color: #000;
 }
